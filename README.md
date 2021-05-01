@@ -130,6 +130,27 @@ Onde:
 
 Clique [aqui]() para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```justify-content```.
 
+### Propriedade ```align-items```
+
+Essa propriedade define o comportamento padrão de como os _flex-itens_ são dispostos ao longo do __cross-axis__ na linha atual. Para ficar mais fácil a sua comporeensão pense no ```align-items``` como um ```justify-content``` em sua versão para o _cross-axis_ (eixo transversal, perpendicular ao eixo principal).
+
+#### Sintaxe
+
+```
+.container {
+  align-items: stretch | flex-start | flex-end | center | baseline;
+}
+```
+Onde:
+
+- ```stretch```: É a propriedade padrão caso não seja alterada. Define que os _flex-itens_ devem esticar e preencher 100% do espaço disponível no _flex-container_ (mas ainda assim essa "esticada" vai respeitar a altura máxima/mínima estipulada para o _flex-container_);
+- ```flex-start```: Os _flex-itens_ são colocados no topo do eixo transversal;
+- ```flex-end```: Os _flex-itens_ são colocados na base do eixo transversal;
+- ```center```: Os _flex-itens_ são centralizados no _cross-axis_;
+- ```baseline```: Os _flex-itens_ são alinhados tomando como referencia a linha base de seus conteúdos.
+
+Clique [aqui]() para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```align-items```.
+
 ## Vamos fazer juntos!
 
 Agora que você já conhece as especificações do módulo Flexbox e as propriedades que auxiliam na configuração de um _container_, vamos para a aula ao vivo.

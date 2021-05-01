@@ -5,11 +5,19 @@ Olá Tryber! Hoje vamos aprender um dos recursos mais sensacionais do CSS. O Fle
 
 Sabe aquela luta que todo desenvolvedor iniciante enfrenta para conseguir organizar o conteúdo corretamente dentro do seu site? Aquela tristeza em redimensionar a tela e quebrar totalmente o design da sua aplicação? Todos (ou quase :stuck_out_tongue_closed_eyes:) todos os seus problemas estarão solucionados ao final desse conteúdo.
 
-O Flexbox (_Flexible Box Module_) é uma funcionalidade nativa presente no __CSS__ que permite estruturar o seu layout de maneira __responsiva e flexível__ sem a necessidade da utilização de elementos do tipo __block__, __inline__ ou __inline-block__. Você também não irá se preocupar mais com as aberrações que podem surgir ao se criar um elemento flutuante (_float_) ou então com a falta de flexibilidade ao se utilizar um posicionamento específico para uma parte do seu código (__static__, __relative__, __fixed__ ou __abolute__).
+O Flexbox (_Flexible Box Module_) é uma funcionalidade nativa presente no __CSS__ que permite estruturar o seu layout de maneira __responsiva e flexível__ sem a necessidade da utilização de elementos do tipo __block__, __inline__ ou __inline-block__. Você também não irá se preocupar mais com as aberrações que podem surgir ao se criar um elemento flutuante (_float_) ou então com a falta de flexibilidade ao se utilizar um posicionamento específico para uma parte do seu site (__static__, __relative__, __fixed__ ou __abolute__).
 
 Com o uso do Flexbox você atribui aos elementos um comportamento dinâmico baseado em proporções, o que significa que os elementos podem "flexionar" seus tamanhos, tanto crescendo para preencher o espaço não utilizado ou encolhendo para evitar a quebra dos limites do elemento pai. Na prática você irá observar que trabalhar com Flexbox é como organizar uma grande fila, sendo que você como desenvolvedor irá definir a direção e prioridade do posicionamento dos itens dessa grande "fila" de elementos _HTML_.
 
 Hoje serão apresentados as especificações Flexbox relativas ao elemento _container_ pai, que atribuem a ele um comportamento flexível: 
+
+- ```display: flex;```;
+- ```flex-direction```;
+- ```flex-wrap```;
+- ```flex-flow```;
+- ```justify-content```;
+- ```align-itens```;
+- ```align-content```.
 
 ## Você será capaz de:
 
@@ -26,7 +34,14 @@ A melhor parte é que o CSS Flexbox permite que você, como desenvolvedor, crie 
 
 ## Conteúdos
 ## Vamos fazer juntos!
+
+Agora que você já conhece as especificações do módulo Flexbox e as propriedades que auxiliam na configuração de um _container_, vamos para a aula ao vivo.
+
+O link estará disponível no Slack.
+
 ## Exercícios
+### Diferenciando um _flex-container_ (elemento pai) de um _flex-items_ (elemento filho)
+
 ## Recursos adicionais (opcional)
 
 [No CSS Flexbox, por que não existem propriedades "justify-items" e "justify-self"?

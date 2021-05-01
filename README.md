@@ -74,6 +74,40 @@ Onde:
 
 Para facilitar o seu entendimento pense nos _flex-itens_ de um _flex-container_ principalmente em linhas horizontais ou colunas verticais. Clique [aqui]() para ver de maneira interativa como cada alteração dessa influencia o posicionamento dos _flex-itens_.
 
+### Propriedade ```flex-wrap```
+
+Sempre que você definir um _flex-container_ com ```display: flex;``` por pardão os _flex-itens_ tentarão todos se ajuntar em uma única linha, mesmo que seja necessário "espremer" os itens. Esse comportamento pode ser alterado (sem a utilização de nenhum tipo de magia, apenas com tecnologia :zany_face: :joy:) fazendo com que ao chegar ao final da linha o próximo _flex-item_ desça altomaticamente para a linha de baixo!
+
+#### Sintaxe
+
+```
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+```
+Onde:
+
+- ```nowrap```: Essa propriedade é definida como padrão caso não seja alterada: Define todos os _flex-itens_ em uma única linha (não ocorre a "quebra" de linha);
+- ```wrap```: Define os _flex-itens_ para sofrerem uma quebra de linha, de cima para baixo, de acordo com a necessidade do tamanho de cada item;
+- ```wrap-reverse```: Se comporta de maneira similar ao ```wrap```, porém os itens serão posicionados na ordem "reversa", ou seja, de baixo para cima.
+
+Clique [aqui]() para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```flex-wrap```.
+
+### Propriedade ```flex-flow```
+
+É uma abreviação, um atalho para as propriedades ```flex-direction``` e ```flex-wrap```, respectivamente, que juntas definem os eixos principal e cruzados do _flex-container_. O valor parão caso não seja alterado é ```row nowrap```. Importante reforçar que o ```flex-flow``` recebe duas propriedades, respeitando essa ordem: ```flex-direction``` e depois ```flex-wrap```. Sempre que possível utilize a forma abreviada para deixar seu código mais limpo e de fácil leitura.
+
+#### Sintaxe
+
+```
+.container {
+  flex-flow: column wrap;
+}
+
+/* Nesse caso a propriedade flex-direction ficou selecionada como column e a 
+propriedade flex-wrap como wrap */
+```
+
 ## Vamos fazer juntos!
 
 Agora que você já conhece as especificações do módulo Flexbox e as propriedades que auxiliam na configuração de um _container_, vamos para a aula ao vivo.

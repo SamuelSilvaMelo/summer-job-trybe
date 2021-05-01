@@ -108,6 +108,28 @@ Clique [aqui]() para ver de maneira interativa como os _flex-itens_ se comportam
 propriedade flex-wrap como wrap */
 ```
 
+### Propriedade ```justify-content```
+
+Essa propriedade define o alinhamento ao longo do eixo principal (_main-axis_). Com ela fica mais fácil distribuir o espaço restante entre os _flex-itens_.
+
+#### Sintaxe
+
+```
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+}
+```
+Onde:
+
+- ```flex-start```: É a propriedade padrão, onde os _flex-itens_ são agrupados (alinhados) no __início__ do _flex-direction_ (a referência aqui é o início do _flex-direction_ pois a propriedade ```justify-content: flex-start;``` pode alinhar os _flex-itens_ tando à direita quanto à esquerda dependendo da direção do ```flex-direction```);
+- ```flex-end```: Agrupa (alinha) os _flex-itens_ no __final__ do _flex-direction_;
+- ```center```: Os _flex-itens_ são centralizados ao longo da linha;
+- ```space-between```: Os espaços entre os _flex-itens_ são distribuidos igualmente, porém o primeiro item fica colado no início da linha e o último item fica colado no final da linha;
+- ```space-around```: O primeiro _flex-item_ recebe o mesmo espaçamento da borda que o último _flex-item_, porém os espaçamentos __entre__ os _flex-itens_ vão possuir duas vezes o valor que o primeiro e o último _flex-itens_ possuem da borda;
+- ```space-evenly```: Os _flex-itens_ são distribuidos de forma que o espaçamento seja igual entre todos os itens e entre os itens e as bordas.
+
+Clique [aqui]() para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```justify-content```.
+
 ## Vamos fazer juntos!
 
 Agora que você já conhece as especificações do módulo Flexbox e as propriedades que auxiliam na configuração de um _container_, vamos para a aula ao vivo.

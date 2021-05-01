@@ -33,6 +33,13 @@ Você irá perceber que o grande diferencial da utilização do Flexbox é a sua
 A melhor parte é que o CSS Flexbox permite que você, como desenvolvedor, crie um mundo mais responsivo e inclusivo com apenas algumas funcionalidades!
 
 ## Conteúdos
+
+### Diferenciando um _flex-container_ de um _flex-items_
+
+A diferença entre um _flex-container_ e um _flex-item_ é bem simples, porém a sua compreensão a respeito disso deverá ser clara, pois caso contrário no futuro você pode acabar aplicando uma propriedade de um _flex-item_ em um _flex-container_ e isso resultará em um resultado indesejado. Basicamente o _flex-container_ é o elemento __PAI__ enquanto os _flex-itens__ são os elementos __FILHOS__. Observe a imagem abaixo:
+
+A diferença básica entre os dois é essa e hoje veremos as configurações que se aplicam ao _flex-container_.
+
 ## Vamos fazer juntos!
 
 Agora que você já conhece as especificações do módulo Flexbox e as propriedades que auxiliam na configuração de um _container_, vamos para a aula ao vivo.
@@ -40,8 +47,6 @@ Agora que você já conhece as especificações do módulo Flexbox e as propried
 O link estará disponível no Slack.
 
 ## Exercícios
-### Diferenciando um _flex-container_ (elemento pai) de um _flex-items_ (elemento filho)
-
 ## Recursos adicionais (opcional)
 
 [No CSS Flexbox, por que não existem propriedades "justify-items" e "justify-self"?

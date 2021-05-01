@@ -72,7 +72,7 @@ Onde:
 - ```column```: define os _flex-itens_ em uma coluna única, um embaixo do outro, começando de cima para baixo;
 - ```column-reverse```: define os _flex-itens_ também em uma coluna única, porém começando de baixo para cima (como se _enter_ do teclado desse um pulo para cima).
 
-Para facilitar o seu entendimento pense nos _flex-itens_ de um _flex-container_ principalmente em linhas horizontais ou colunas verticais. Clique [aqui]() para ver de maneira interativa como cada alteração dessa influencia o posicionamento dos _flex-itens_.
+Para facilitar o seu entendimento pense nos _flex-itens_ de um _flex-container_ principalmente em linhas horizontais ou colunas verticais. Clique [aqui](https://samuelsilvamelo.github.io/summer-job/flex-direction/) para ver de maneira interativa como cada alteração dessa influencia o posicionamento dos _flex-itens_.
 
 ### Propriedade ```flex-wrap```
 
@@ -91,7 +91,7 @@ Onde:
 - ```wrap```: define os _flex-itens_ para sofrerem uma quebra de linha, de cima para baixo, de acordo com a necessidade do tamanho de cada item;
 - ```wrap-reverse```: se comporta de maneira similar ao ```wrap```, porém os itens serão posicionados na ordem "reversa", ou seja, de baixo para cima.
 
-Clique [aqui]() para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```flex-wrap```.
+Clique [aqui](https://samuelsilvamelo.github.io/summer-job/flex-wrap/) para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```flex-wrap```.
 
 ### Propriedade ```flex-flow```
 
@@ -128,7 +128,7 @@ Onde:
 - ```space-around```: o primeiro _flex-item_ recebe o mesmo espaçamento da borda que o último _flex-item_, porém os espaçamentos __entre__ os _flex-itens_ vão possuir duas vezes o valor que o primeiro e o último _flex-itens_ possuem da borda;
 - ```space-evenly```: os _flex-itens_ são distribuidos de forma que o espaçamento seja igual entre todos os itens e entre os itens e as bordas.
 
-Clique [aqui]() para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```justify-content```.
+Clique [aqui](https://samuelsilvamelo.github.io/summer-job/justify-content/) para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```justify-content```.
 
 ### Propriedade ```align-items```
 
@@ -149,7 +149,7 @@ Onde:
 - ```center```: os _flex-itens_ são centralizados no _cross-axis_;
 - ```baseline```: os _flex-itens_ são alinhados tomando como referencia a linha base de seus conteúdos.
 
-Clique [aqui]() para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```align-items```.
+Clique [aqui](https://samuelsilvamelo.github.io/summer-job/align-items/) para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```align-items```.
 
 ### Propriedade ```align-content```
 
@@ -173,6 +173,8 @@ Onde:
 - ```space-around```: a primeira e última linha recebem o mesmo espaçamento do topo e fundo do _flex-container_, porém o espaçamento __entre as linhas__ possuem duas vezes o tamanho que a primeira e última linha possuem do topo e fundo do _flex-container_, respectivamente.
 - ```space-evenly```: os _flex-itens_ se distribuem uniformemente, de maneira que o espaço entre as linhas seja igual entre todos eles (também é igual com relação às bordas superiores e inferiores);
 - ```stretch```: os _flex-itens_ expandem as linhas para ocuparem o espaço disponíve.
+
+Clique [aqui](https://samuelsilvamelo.github.io/summer-job/align-content/) para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```align-content```.
 
 ## Vamos fazer juntos!
 

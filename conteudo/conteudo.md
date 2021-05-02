@@ -61,7 +61,17 @@ Os _flex-itens_ serão dispostos seguindo o _main axis_ (do início ao fim, ou s
 
 O eixo principal (_main axis_) pode ser tanto horizontal (sua posição por padrão) ou então vertical e isso irá depender unicamente do valor definido pela propriedade ```flex-direction``` (você irá aprender a usar ela logo abaixo). Vamos observar agora alguns exemplos:
 
-O eixo cruzado (_cross axis_) será sempre perpendicular ao eixo principal (_main axis_) e a sua direção sempre dependerá da direção do eixo principal
+- Quando o eixo principal for horizontal os eixos se organizarão da seguinte maneira:
+
+![](https://i.imgur.com/VAoNq13.png)
+
+- Quando o eixo principal for verical os eixos se organizarão da seguinte maneira:
+
+![](https://i.imgur.com/JgoWsmM.png)
+
+Não se preocupe que mais abaixo você aprenderá a mudar a direção do eixo principal através da propriedade ```flex-direction```.
+
+Importante observar que o eixo cruzado (_cross axis_) será sempre perpendicular ao eixo principal (_main axis_) e a sua direção sempre dependerá da direção do eixo principal.
 
 ### Propriedade ```flex-direction```
 

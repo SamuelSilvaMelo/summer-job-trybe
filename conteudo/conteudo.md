@@ -34,7 +34,7 @@ A melhor parte é que o CSS Flexbox permite que você, como desenvolvedor, crie 
 
 ## Conteúdos
 
-### Diferenciando um _flex-container_ de um _flex-items_
+### Diferenciando um _flex-container_ de um _flex-item_
 
 A diferença entre um _flex-container_ e um _flex-item_ é bem simples, porém a compreensão a respeito disso deverá ser nítida, pois caso contrário no futuro você pode acabar aplicando uma propriedade de um _flex-item_ em um _flex-container_ e isso resultará em um resultado indesejado. Basicamente o _flex-container_ é o elemento __PAI__ enquanto os _flex-itens_ são os elementos __FILHOS__. Observe a imagem abaixo:
 
@@ -53,6 +53,15 @@ Para tornar algum elemento _HTML_ flexível é necessário mudar a propriedade _
 ```
 
 Esse valor de __display__ permite um comportamento flexível para todos os seus filhos diretos.
+
+### Conhecendo os eixos do _flex-container_
+
+O _layout_ flexível apresentado pelo Flexbox tras consigo um novo conceito de "_flex-flow directions_"(direções flexíveis). Esse conceito aborda dois eixos básicos (_main axis_ e o _cross axis_) que possuem um ponto de início (_main-start_ / _cross-start_) e um ponto final (_main-end_ / _cross-end_).
+Os _flex-itens_ serão dispostos seguindo o _main axis_ (do início ao fim, ou seja, do _main start_ até o _main end_) ou então o _cross axis_ (também do início ao fim, ou seja, do _cross-start_ até o _cross-end_).
+
+O eixo principal (_main axis_) pode ser tanto horizontal (sua posição por padrão) ou então vertical e isso irá depender unicamente do valor definido pela propriedade ```flex-direction``` (você irá aprender a usar ela logo abaixo). Vamos observar agora alguns exemplos:
+
+O eixo cruzado (_cross axis_) será sempre perpendicular ao eixo principal (_main axis_) e a sua direção sempre dependerá da direção do eixo principal
 
 ### Propriedade ```flex-direction```
 

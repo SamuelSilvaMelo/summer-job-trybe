@@ -9,7 +9,7 @@ O Flexbox (_Flexible Box Module_) é uma funcionalidade nativa presente no __CSS
 
 Com o uso do Flexbox você atribui aos elementos um comportamento dinâmico baseado em proporções, o que significa que os elementos podem "flexionar" seus tamanhos, tanto crescendo para preencher o espaço não utilizado ou encolhendo para evitar a quebra dos limites do elemento pai. Na prática você irá observar que trabalhar com Flexbox é como organizar uma grande fila, sendo que você como desenvolvedor irá definir a direção e prioridade do posicionamento dos itens dessa grande "fila" de elementos _HTML_.
 
-Hoje serão apresentados as especificações Flexbox relativas ao elemento _container_ pai, que atribuem a ele um comportamento flexível: 
+Hoje serão apresentadas as especificações Flexbox relativas ao elemento _container_ pai, que atribuem a ele um comportamento flexível: 
 
 - ```display: flex;```;
 - ```flex-direction```;
@@ -36,7 +36,7 @@ A melhor parte é que o CSS Flexbox permite que você, como desenvolvedor, crie 
 
 ### Diferenciando um _flex-container_ de um _flex-items_
 
-A diferença entre um _flex-container_ e um _flex-item_ é bem simples, porém a compreensão a respeito disso deverá ser nitida, pois caso contrário no futuro você pode acabar aplicando uma propriedade de um _flex-item_ em um _flex-container_ e isso resultará em um resultado indesejado. Basicamente o _flex-container_ é o elemento __PAI__ enquanto os _flex-itens_ são os elementos __FILHOS__. Observe a imagem abaixo:
+A diferença entre um _flex-container_ e um _flex-item_ é bem simples, porém a compreensão a respeito disso deverá ser nítida, pois caso contrário no futuro você pode acabar aplicando uma propriedade de um _flex-item_ em um _flex-container_ e isso resultará em um resultado indesejado. Basicamente o _flex-container_ é o elemento __PAI__ enquanto os _flex-itens_ são os elementos __FILHOS__. Observe a imagem abaixo:
 
 ![](https://i.imgur.com/BukOhUw.png)
 
@@ -56,7 +56,7 @@ Esse valor de __display__ permite um comportamento flexível para todos os seus 
 
 ### Propriedade ```flex-direction```
 
-Essa configuração só é aplicável ao eixo principal (_main-axis_) e define a direção em que os _flex-itens_ são colocados dentro do _flex-container_. É importante entender que o Flexbox é (exceto algumas configuraçẽos especiais) um conceito de layout de direção única.
+Essa configuração só é aplicável ao eixo principal (_main-axis_) e define a direção em que os _flex-itens_ são colocados dentro do _flex-container_. É importante entender que o Flexbox é (exceto algumas configurações especiais) um conceito de layout de direção única.
 
 #### Sintaxe
 
@@ -76,7 +76,7 @@ Para facilitar o seu entendimento pense nos _flex-itens_ de um _flex-container_ 
 
 ### Propriedade ```flex-wrap```
 
-Sempre que você definir um _flex-container_ com ```display: flex;``` por pardão os _flex-itens_ tentarão todos se ajuntar em uma única linha, mesmo que seja necessário "espremer" os itens. Esse comportamento pode ser alterado (sem a utilização de nenhum tipo de magia, apenas com tecnologia :zany_face: :joy:) fazendo com que ao chegar ao final da linha o próximo _flex-item_ desça altomaticamente para a linha de baixo!
+Sempre que você definir um _flex-container_ com ```display: flex;``` por pardão os _flex-itens_ tentarão todos se ajuntar em uma única linha, mesmo que seja necessário "espremer" os itens. Esse comportamento pode ser alterado (sem a utilização de nenhum tipo de magia, apenas com tecnologia :zany_face: :joy:) fazendo com que ao chegar ao final da linha o próximo _flex-item_ desça automaticamente para a linha de baixo!
 
 #### Sintaxe
 
@@ -124,15 +124,15 @@ Onde:
 - ```flex-start```: é a propriedade padrão, onde os _flex-itens_ são agrupados (alinhados) no __início__ do _flex-direction_ (a referência aqui é o início do _flex-direction_ pois a propriedade ```justify-content: flex-start;``` pode alinhar os _flex-itens_ tando à direita quanto à esquerda dependendo da direção do ```flex-direction```);
 - ```flex-end```: agrupa (alinha) os _flex-itens_ no __final__ do _flex-direction_;
 - ```center```: os _flex-itens_ são centralizados ao longo da linha;
-- ```space-between```: os espaços entre os _flex-itens_ são distribuidos igualmente, porém o primeiro item fica colado no início da linha e o último item fica colado no final da linha;
+- ```space-between```: os espaços entre os _flex-itens_ são distribuídos igualmente, porém o primeiro item fica colado no início da linha e o último item fica colado no final da linha;
 - ```space-around```: o primeiro _flex-item_ recebe o mesmo espaçamento da borda que o último _flex-item_, porém os espaçamentos __entre__ os _flex-itens_ vão possuir duas vezes o valor que o primeiro e o último _flex-itens_ possuem da borda;
-- ```space-evenly```: os _flex-itens_ são distribuidos de forma que o espaçamento seja igual entre todos os itens e entre os itens e as bordas.
+- ```space-evenly```: os _flex-itens_ são distribuídos de forma que o espaçamento seja igual entre todos os itens e entre os itens e as bordas.
 
 Clique [aqui](https://samuelsilvamelo.github.io/summer-job/justify-content/) para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```justify-content```.
 
 ### Propriedade ```align-items```
 
-Essa propriedade define o comportamento padrão de como os _flex-itens_ são dispostos ao longo do __cross-axis__ na linha atual. Para ficar mais fácil a sua comporeensão pense no ```align-items``` como um ```justify-content``` em sua versão para o _cross-axis_ (eixo transversal, perpendicular ao eixo principal).
+Essa propriedade define o comportamento padrão de como os _flex-itens_ são dispostos ao longo do __cross-axis__ na linha atual. Para ficar mais fácil a sua compreensão pense no ```align-items``` como um ```justify-content``` em sua versão para o _cross-axis_ (eixo transversal, perpendicular ao eixo principal).
 
 #### Sintaxe
 
@@ -147,7 +147,7 @@ Onde:
 - ```flex-start```: os _flex-itens_ são colocados no topo do eixo transversal;
 - ```flex-end```: os _flex-itens_ são colocados na base do eixo transversal;
 - ```center```: os _flex-itens_ são centralizados no _cross-axis_;
-- ```baseline```: os _flex-itens_ são alinhados tomando como referencia a linha base de seus conteúdos.
+- ```baseline```: os _flex-itens_ são alinhados tomando como referência a linha base de seus conteúdos.
 
 Clique [aqui](https://samuelsilvamelo.github.io/summer-job/align-items/) para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```align-items```.
 
@@ -165,14 +165,14 @@ __Observação__: Esta propriedade só tem efeitos em _flex-containers_ multilin
 ```
 Onde:
 
-- ```normal```: propriedade definida como parão caso não seja alterado. Os _flex-itens_ são agrupados (alinhados) em sua posição padrão, como se nenhum valor tivesse sido definido;
+- ```normal```: propriedade definida como padrão caso não seja alterado. Os _flex-itens_ são agrupados (alinhados) em sua posição padrão, como se nenhum valor tivesse sido definido;
 - ```flex-start```: os _flex-itens_ são agrupados (alinhados) no início do _flex-container_;
 - ```flex-end```: os _flex-itens_ são agrupados (alinhados) no final do _flex-container_;
 - ```center```: os _flex-itens_ são centralizados no _flex-container_;
 - ```space-between```: os espaços entre os _flex-itens_ são distribuidos uniformemente, sendo que a primeira linha fica colada no início do _flex-container_ e a última linha fica colada no final do _flex-container_;
-- ```space-around```: a primeira e última linha recebem o mesmo espaçamento do topo e fundo do _flex-container_, porém o espaçamento __entre as linhas__ possuem duas vezes o tamanho que a primeira e última linha possuem do topo e fundo do _flex-container_, respectivamente.
+- ```space-around```: a primeira e última linha recebem o mesmo espaçamento do topo e fundo do _flex-container_, porém o espaçamento __entre as linhas__ possui duas vezes o tamanho que a primeira e última linha possuem do topo e fundo do _flex-container_, respectivamente.
 - ```space-evenly```: os _flex-itens_ se distribuem uniformemente, de maneira que o espaço entre as linhas seja igual entre todos eles (também é igual com relação às bordas superiores e inferiores);
-- ```stretch```: os _flex-itens_ expandem as linhas para ocuparem o espaço disponíve.
+- ```stretch```: os _flex-itens_ expandem as linhas para ocuparem o espaço disponível.
 
 Clique [aqui](https://samuelsilvamelo.github.io/summer-job/align-content/) para ver de maneira interativa como os _flex-itens_ se comportam quando alteramos os valores do ```align-content```.
 

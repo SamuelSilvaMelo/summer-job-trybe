@@ -22,8 +22,8 @@ Hoje serão apresentados as especificações Flexbox relativas ao elemento _cont
 ## Você será capaz de:
 
 - Tornar qualquer elemento do seu _HTML_ flexível;
-- Configurar o elemento _container_ pai como flexível;
 - Utilizar corretamente os eixos do Flexbox;
+- Aplicar as configurações corretas ao elemento _flex-container_;
 - Alinhar os conteúdos verticalmente e horizontalmente;
 
 ## Por que isso é importante
@@ -36,7 +36,7 @@ A melhor parte é que o CSS Flexbox permite que você, como desenvolvedor, crie 
 
 ### Diferenciando um _flex-container_ de um _flex-items_
 
-A diferença entre um _flex-container_ e um _flex-item_ é bem simples, porém a sua compreensão a respeito disso deverá ser clara, pois caso contrário no futuro você pode acabar aplicando uma propriedade de um _flex-item_ em um _flex-container_ e isso resultará em um resultado indesejado. Basicamente o _flex-container_ é o elemento __PAI__ enquanto os _flex-itens_ são os elementos __FILHOS__. Observe a imagem abaixo:
+A diferença entre um _flex-container_ e um _flex-item_ é bem simples, porém a compreensão a respeito disso deverá ser nitida, pois caso contrário no futuro você pode acabar aplicando uma propriedade de um _flex-item_ em um _flex-container_ e isso resultará em um resultado indesejado. Basicamente o _flex-container_ é o elemento __PAI__ enquanto os _flex-itens_ são os elementos __FILHOS__. Observe a imagem abaixo:
 
 ![](https://i.imgur.com/BukOhUw.png)
 
@@ -44,7 +44,7 @@ A diferença básica entre os dois é essa e hoje veremos as configurações que
 
 ### Tornando algum elemento _HTML_ flexível
 
-Para tornar algum elemento _HTML_ flexível é necessário mudar sua propriedade __DISPLAY__ atribuindo a ela o valor __FLEX__.
+Para tornar algum elemento _HTML_ flexível é necessário mudar a propriedade __display__ atribuindo a ela o valor __flex__.
 
 ```
 .container {
@@ -52,7 +52,7 @@ Para tornar algum elemento _HTML_ flexível é necessário mudar sua propriedade
 }
 ```
 
-Esse valor de __DISPLAY__ permite um comportamento flexível para todos os seus filhos diretos.
+Esse valor de __display__ permite um comportamento flexível para todos os seus filhos diretos.
 
 ### Propriedade ```flex-direction```
 
@@ -68,7 +68,7 @@ Essa configuração só é aplicável ao eixo principal (_main-axis_) e define a
 Onde:
 
 - ```row```: essa propriedade é definida como padrão caso não seja alterada. A palavra __row__ significa __linha__ e define a posição dos elementos da esquerda para a direita, um ao lado do outro (como eu uma fila);
-- ```row-reverse```: define os _flex-itens- também em linha, porém o posicionamento será _'reverso'_, ou seja, da direita para a esquerda;
+- ```row-reverse```: define os _flex-itens_ também em linha, porém o posicionamento será _'reverso'_, ou seja, da direita para a esquerda;
 - ```column```: define os _flex-itens_ em uma coluna única, um embaixo do outro, começando de cima para baixo;
 - ```column-reverse```: define os _flex-itens_ também em uma coluna única, porém começando de baixo para cima (como se _enter_ do teclado desse um pulo para cima).
 

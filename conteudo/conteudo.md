@@ -815,7 +815,7 @@ img {
 
 ### Clone Trybe Course
 
-As instruções para a realização desse exercício bônus estão [nesse]() repositório, no arquivo __README.md__. Não queremos dar muitos spoilers, mas você encontrará o clone do course da Trybe assim:
+As instruções para a realização desse exercício bônus estão nesse repositório (Aos avaliadores do Summer Job: para não me identificar anexei ao e-mail o donwload que seria feito do repositório), no arquivo __README.md__. Não queremos dar muitos spoilers, mas você encontrará o clone do course da Trybe assim:
 
 ![](https://i.imgur.com/DwivBNY.gif)
 

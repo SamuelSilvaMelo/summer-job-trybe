@@ -106,3 +106,50 @@
   align-content: space-evenly; 
 }
 ```
+## Bônus
+
+Para consertar o Clone do Course você deverá aplicar as seguintes propriedades:
+
+```
+.course-page , .header , .left-header , .right-header{
+  display: flex;
+}
+
+.course-page {
+  flex-direction: column;
+} 
+
+.header {
+  justify-content: space-between;
+}
+
+.left-header , .right-header {
+  align-items: center;
+}
+
+.hard-skill-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.section-2-card {
+  display: flex;
+}
+
+.section-2-card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+```

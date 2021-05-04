@@ -391,7 +391,7 @@ img {
 .runway-div {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   position: absolute;
   width: 100%;
@@ -481,7 +481,7 @@ img {
 
 .runway-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   position: absolute;
   width: 100%;

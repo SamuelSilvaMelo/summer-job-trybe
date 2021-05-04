@@ -811,7 +811,30 @@ img {
 }
 ```
 
+### Bônus
+
+### Clone Trybe Course
+
+As instruções para a realização desse exercício bônus estão [nesse]() repositório, no arquivo __README.md__. Não queremos dar muitos spoilers, mas você encontrará o clone do course da Trybe assim:
+
+![](https://i.imgur.com/DwivBNY.gif)
+
+E após aplicar seus conhecimentos de CSS Flexbox ele ficarará assim:
+
+![Imgur](https://i.imgur.com/ED59Rvr.png)
+
+Importante ressaltar que esse repositório possuí apenas um clone visual do Course, o que significa que ele não funciona como o original.
+
 ## Recursos adicionais (opcional)
 
-[No CSS Flexbox, por que não existem propriedades "justify-items" e "justify-self"?
-](https://qastack.com.br/programming/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties#:~:text=A%20especifica%C3%A7%C3%A3o%20flexbox%20permite%20o,removidos%20do%20fluxo%20de%20documentos%20.)
+[No CSS Flexbox, por que não existem propriedades "justify-items" e "justify-self"?](https://qastack.com.br/programming/32551291/in-css-flexbox-why-are-there-no-justify-items-and-justify-self-properties#:~:text=A%20especifica%C3%A7%C3%A3o%20flexbox%20permite%20o,removidos%20do%20fluxo%20de%20documentos%20.)
+
+[Conceitos básicos de flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#propriedade_align-items)
+
+[CSS Flex Container](https://www.w3schools.com/css/css3_flexbox_container.asp)
+
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background)
+
+[Flexbox playground](https://codepen.io/enxaneta/full/adLPwv)
+
+[Guia completo de Flexbox](https://origamid.com/projetos/flexbox-guia-completo/)

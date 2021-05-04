@@ -817,7 +817,7 @@ img {
 
 As instruções para a realização desse exercício bônus estão [nesse]() repositório, no arquivo __README.md__. Não queremos dar muitos spoilers, mas você encontrará o clone do course da Trybe assim:
 
-![]()
+![](https://i.imgur.com/DwivBNY.gif)
 
 E após aplicar seus conhecimentos de CSS Flexbox ele ficarará assim:
 

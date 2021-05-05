@@ -3,7 +3,7 @@
 
 Olá Tryber! Hoje vamos aprender um dos recursos mais sensacionais do CSS. O Flexbox!
 
-Sabe aquela luta que todo desenvolvedor iniciante enfrenta para conseguir organizar o conteúdo corretamente dentro do seu site? Aquela tristeza em redimensionar a tela e quebrar totalmente o design da sua aplicação? Todos (ou quase :stuck_out_tongue_closed_eyes:) todos os seus problemas estarão solucionados ao final desse conteúdo.
+Sabe aquela luta que toda pessoa desenvolvedora iniciante enfrenta para conseguir organizar o conteúdo corretamente dentro do seu site? Aquela tristeza em redimensionar a tela e quebrar totalmente o design da sua aplicação? Todos (ou quase :stuck_out_tongue_closed_eyes:) todos os seus problemas estarão solucionados ao final desse conteúdo.
 
 O Flexbox (_Flexible Box Module_) é uma funcionalidade nativa presente no __CSS__ que permite estruturar o seu layout de maneira __responsiva e flexível__ sem a necessidade da utilização de elementos do tipo __block__, __inline__ ou __inline-block__. Você também não irá se preocupar mais com as aberrações que podem surgir ao se criar um elemento flutuante (_float_) ou então com a falta de flexibilidade ao se utilizar um posicionamento específico para uma parte do seu site (__static__, __relative__, __fixed__ ou __abolute__).
 
@@ -28,9 +28,9 @@ Hoje serão apresentadas as especificações Flexbox relativas ao elemento _cont
 
 ## Por que isso é importante
 
-Você irá perceber que o grande diferencial da utilização do Flexbox é a sua capacidade de inclusão devido à suas propriedades de dimensionamento dos elementos. Isso quer dizer que ao estilizar seu site utilizando propriedades flexíveis em seus elementos consequentemente você está permitindo que mais pessoas obtenham uma excelênte experiência ao utilizar suas criações. Dessa maneira usuários com monitores FullHD (1080p) e usuários com um monitor HD (720p) terão, por exemplo, a mesma experiência.
+Você irá perceber que o grande diferencial da utilização do Flexbox é a sua capacidade de inclusão devido à suas propriedades de dimensionamento dos elementos. Isso quer dizer que ao estilizar seu site utilizando propriedades flexíveis em seus elementos consequentemente você está permitindo que mais pessoas obtenham uma excelente experiência ao utilizar suas criações. Dessa maneira usuários com monitores FullHD (1080p) e usuários com um monitor HD (720p) terão, por exemplo, a mesma experiência.
 
-A melhor parte é que o CSS Flexbox permite que você, como desenvolvedor, crie um mundo mais responsivo e inclusivo com apenas algumas funcionalidades!
+A melhor parte é que o CSS Flexbox permite que você, como pessoa desenvolvedora, crie um mundo mais responsivo e inclusivo com apenas algumas funcionalidades!
 
 ## Conteúdos
 
@@ -52,11 +52,11 @@ Para tornar algum elemento _HTML_ flexível é necessário mudar a propriedade _
 }
 ```
 
-Esse valor de __display__ permite um comportamento flexível para todos os seus filhos diretos.
+Esse valor de __display__ permite um comportamento flexível para todos os seus filhos diretos e pode ser aplicado em qualquer tag _HTML_.
 
-### Conhecendo os eixos do _flex-container_
+### Conhecendo os eixos do _flex-container_, os _flex-axes_
 
-O _layout_ flexível apresentado pelo Flexbox tras consigo um novo conceito de "_flex-flow directions_"(direções flexíveis). Esse conceito aborda dois eixos básicos (_main axis_ e o _cross axis_) que possuem um ponto de início (_main-start_ / _cross-start_) e um ponto final (_main-end_ / _cross-end_).
+O _layout_ flexível apresentado pelo Flexbox traz consigo um novo conceito de "_flex-flow directions_"(direções flexíveis). Esse conceito aborda dois eixos básicos (_main axis_ e o _cross axis_) que possuem um ponto de início (_main-start_ / _cross-start_) e um ponto final (_main-end_ / _cross-end_).
 Os _flex-itens_ serão dispostos seguindo o _main axis_ (do início ao fim, ou seja, do _main start_ até o _main end_) ou então o _cross axis_ (também do início ao fim, ou seja, do _cross-start_ até o _cross-end_).
 
 O eixo principal (_main axis_) pode ser tanto horizontal (sua posição por padrão) ou então vertical e isso irá depender unicamente do valor definido pela propriedade ```flex-direction``` (você irá aprender a usar ela logo abaixo). Vamos observar agora alguns exemplos:
@@ -65,9 +65,11 @@ O eixo principal (_main axis_) pode ser tanto horizontal (sua posição por padr
 
 ![](https://i.imgur.com/VAoNq13.png)
 
-- Quando o eixo principal for verical os eixos se organizarão da seguinte maneira:
+- Quando o eixo principal for vertical os eixos se organizarão da seguinte maneira:
 
 ![](https://i.imgur.com/JgoWsmM.png)
+
+O _main size_ e o _cross size_ representam, respectivamente o tamanho do eixo principal e do eixo cruzado, ou seja, são definidos pelas propriedades _height_ e _width_. Resumindo o _main size_ representa o tamanho do _main axis_ e o _cross size_ o tamanho do _cross axis_
 
 Não se preocupe que mais abaixo você aprenderá a mudar a direção do eixo principal através da propriedade ```flex-direction```.
 

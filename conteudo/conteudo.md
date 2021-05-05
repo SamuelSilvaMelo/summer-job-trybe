@@ -97,7 +97,7 @@ Para facilitar o seu entendimento pense nos _flex-itens_ de um _flex-container_ 
 
 ### Propriedade ```flex-wrap```
 
-Sempre que você definir um _flex-container_ com ```display: flex;``` por pardão os _flex-itens_ tentarão todos se ajuntar em uma única linha, mesmo que seja necessário "espremer" os itens. Esse comportamento pode ser alterado (sem a utilização de nenhum tipo de magia, apenas com tecnologia :zany_face: :joy:) fazendo com que ao chegar ao final da linha o próximo _flex-item_ desça automaticamente para a linha de baixo!
+Sempre que você definir um _flex-container_ com ```display: flex;``` por padrão os _flex-itens_ tentarão todos se ajuntar em uma única linha, mesmo que seja necessário "espremer" os itens. Esse comportamento pode ser alterado (sem a utilização de nenhum tipo de magia, apenas com tecnologia :zany_face: :joy:) fazendo com que ao chegar ao final da linha o próximo _flex-item_ desça automaticamente para a linha de baixo!
 
 #### Sintaxe
 
@@ -108,7 +108,7 @@ Sempre que você definir um _flex-container_ com ```display: flex;``` por pardã
 ```
 Onde:
 
-- ```nowrap```: essa propriedade é definida como padrão caso não seja alterada: Define todos os _flex-itens_ em uma única linha (não ocorre a "quebra" de linha);
+- ```nowrap```: essa propriedade é definida como padrão caso não seja alterada. Define todos os _flex-itens_ em uma única linha (não ocorre a "quebra" de linha);
 - ```wrap```: define os _flex-itens_ para sofrerem uma quebra de linha, de cima para baixo, de acordo com a necessidade do tamanho de cada item;
 - ```wrap-reverse```: se comporta de maneira similar ao ```wrap```, porém os itens serão posicionados na ordem "reversa", ou seja, de baixo para cima.
 
@@ -116,7 +116,7 @@ Clique [aqui](https://samuelsilvamelo.github.io/summer-job/flex-wrap/) para ver 
 
 ### Propriedade ```flex-flow```
 
-É uma abreviação, um atalho para as propriedades ```flex-direction``` e ```flex-wrap```, respectivamente, que juntas definem os eixos principal e cruzados do _flex-container_. O valor parão caso não seja alterado é ```row nowrap```. Importante reforçar que o ```flex-flow``` recebe duas propriedades, respeitando essa ordem: ```flex-direction``` e depois ```flex-wrap```. Sempre que possível utilize a forma abreviada para deixar seu código mais limpo e de fácil leitura.
+É uma abreviação, um atalho para as propriedades ```flex-direction``` e ```flex-wrap```, respectivamente, que juntas definem os eixos principal e cruzados do _flex-container_. O valor padrão caso não seja alterado é ```row nowrap```. Importante reforçar que o ```flex-flow``` recebe duas propriedades, respeitando essa ordem: ```flex-direction``` e depois ```flex-wrap```. Sempre que possível utilize a forma abreviada para deixar seu código mais limpo e de fácil leitura.
 
 #### Sintaxe
 
@@ -142,7 +142,7 @@ Essa propriedade define o alinhamento ao longo do eixo principal (_main-axis_). 
 ```
 Onde:
 
-- ```flex-start```: é a propriedade padrão, onde os _flex-itens_ são agrupados (alinhados) no __início__ do _flex-direction_ (a referência aqui é o início do _flex-direction_ pois a propriedade ```justify-content: flex-start;``` pode alinhar os _flex-itens_ tando à direita quanto à esquerda dependendo da direção do ```flex-direction```);
+- ```flex-start```: é a propriedade padrão, onde os _flex-itens_ são agrupados (alinhados) no __início__ do _flex-direction_ (a referência aqui é o início do _flex-direction_ pois a propriedade ```justify-content: flex-start;``` pode alinhar os _flex-itens_ tanto à direita quanto à esquerda dependendo da direção do ```flex-direction```);
 - ```flex-end```: agrupa (alinha) os _flex-itens_ no __final__ do _flex-direction_;
 - ```center```: os _flex-itens_ são centralizados ao longo da linha;
 - ```space-between```: os espaços entre os _flex-itens_ são distribuídos igualmente, porém o primeiro item fica colado no início da linha e o último item fica colado no final da linha;
@@ -190,7 +190,7 @@ Onde:
 - ```flex-start```: os _flex-itens_ são agrupados (alinhados) no início do _flex-container_;
 - ```flex-end```: os _flex-itens_ são agrupados (alinhados) no final do _flex-container_;
 - ```center```: os _flex-itens_ são centralizados no _flex-container_;
-- ```space-between```: os espaços entre os _flex-itens_ são distribuidos uniformemente, sendo que a primeira linha fica colada no início do _flex-container_ e a última linha fica colada no final do _flex-container_;
+- ```space-between```: os espaços entre os _flex-itens_ são distribuídos uniformemente, sendo que a primeira linha fica colada no início do _flex-container_ e a última linha fica colada no final do _flex-container_;
 - ```space-around```: a primeira e última linha recebem o mesmo espaçamento do topo e fundo do _flex-container_, porém o espaçamento __entre as linhas__ possui duas vezes o tamanho que a primeira e última linha possuem do topo e fundo do _flex-container_, respectivamente.
 - ```space-evenly```: os _flex-itens_ se distribuem uniformemente, de maneira que o espaço entre as linhas seja igual entre todos eles (também é igual com relação às bordas superiores e inferiores);
 - ```stretch```: os _flex-itens_ expandem as linhas para ocuparem o espaço disponível.

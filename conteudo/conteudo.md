@@ -522,11 +522,7 @@ Vamos explorar mais recursos do Flexbox! Mas agora você precisa pegar esse novo
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="style1.css"> -->
-  <!-- <link rel="stylesheet" href="style2.css"> -->
-  <!-- <link rel="stylesheet" href="style3.css"> -->
-  <!-- <link rel="stylesheet" href="style4.css"> -->
-  <link rel="stylesheet" href="style5.css">
+  <link rel="stylesheet" href="style.css">
   <title>Exercícios CSS Flexbox - II</title>
 </head>
 <body>
